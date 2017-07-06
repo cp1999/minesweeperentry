@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+  <head>
+
+    <style type="text/css">
+
+      #form_wrap{
+        padding: 20px;
+        width: 25%;
+        margin: 20px auto;
+        text-align: center;
+        position: absolute;
+        top:37%;
+        left:37%;
+        border: 2px solid #000;
+      }
+
+      body{
+        background: url(https://lh6.ggpht.com/QABrOB9Z6OzY75cSTWYUou0dNAxojp0c9MU7mQ9DAlbbbeUUMoiMdYmLnEJ2ZBoxdFs=w300);
+        background-size: 50%;
+        background-position: top center;
+        background-repeat: no-repeat;
+      }
+
+      input[type="text"],input[type="password"]{
+        padding:3px;
+        font-size:11px;
+        border:1px solid #b3b3b3;
+        background: #fff;
+        outline: none;
+        margin: 5px 0px 5px 0px;
+        width: 300px;
+      }
+
+        input[type="checkbox"]:required:invalid + label {
+          color: red;
+        }
+
+      .btn{
+        margin-top:20px;
+      }
+
+    </style>
+
+  </head>
+
+
+  <body>
+
+    <div id="form_wrap">
+
+      <form action="https://cp1999.github.io/minesweeper/" method="get">
+
+      <table align="center">
+        <text
+        <tr>
+          <td width=30% align="left">Code Name</td>
+          <td width=70% align="left"><input type="text" required oninvalid="this.setCustomValidity('u better enter this')"/></td>
+        </tr>
+        <tr>
+          <td align="left">Secret Password</td>
+          <td align="left"><input type ="password" required oninvalid="this.setCustomValidity('really now')"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="left">
+            <input id="red" type="checkbox" required oninvalid="this.setCustomValidity('How Dare You')" />
+            <label for="red">Agree that giraffes are not not better than hippos <u><i>or you can't play!!!</i></u></label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="submit" class="btn"/></td>
+        </tr>
+        </font>
+      </table>
+
+      </form>
+
+    </div>
+
+  </body>
+
+</html>
